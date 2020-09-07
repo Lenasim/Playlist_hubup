@@ -40,6 +40,7 @@
   justify-content: center;
   align-items: center;
   width: 13%;
+  min-width: 10rem;
   height: fit-content;
   margin: 2rem;
   padding: 1rem;

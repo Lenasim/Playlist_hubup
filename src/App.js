@@ -7,6 +7,7 @@ import {
   Button,
 } from '@material-ui/core';
 import AlbumRoundedIcon from '@material-ui/icons/AlbumRounded';
+import AddCircleOutlineIcon from '@material-ui/icons/AddCircleOutline';
 import './App.css';
 
 function App() {
@@ -15,7 +16,13 @@ function App() {
       <AppBar position='static' className='navbar'>
         <Toolbar>
           <AlbumRoundedIcon className='logo' />
-          <Typography className='title'>Hubify</Typography>
+          <Typography className='title' style={{ flexGrow: 1 }}>
+            Hubify
+          </Typography>
+          <Button color='inherit'>
+            <AddCircleOutlineIcon />
+            Add an album
+          </Button>
         </Toolbar>
       </AppBar>
 

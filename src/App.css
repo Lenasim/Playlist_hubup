@@ -16,7 +16,7 @@
 
 .album-list {
   max-width: 100% !important;
-  min-height: 60vh;
+  min-height: 85vh;
   margin: 0;
   padding: 0;
   background-color: #509BF5;
@@ -25,12 +25,13 @@
 
 .album-list2 {
   max-width: 100% !important;
-  min-height: 60vh;
+  min-height: 85vh;
   margin: 0;
   padding: 2rem;
   background-image: linear-gradient(transparent, #000);
   display: flex;
   flex-wrap: wrap;
+  align-content: flex-start;
 }
 
 .album {

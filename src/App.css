@@ -1,38 +1,35 @@
-.App {
-  text-align: center;
+.navbar{
+  background-color: black !important;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.logo {
+  margin: 1rem 0.1rem;
+  font-size: 2.5rem !important;
+  /* filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(93deg) brightness(103%) contrast(103%); */
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.title {
+  font-size: 1.5rem !important;
+  font-weight: 900 !important;
+  letter-spacing: -0.04rem !important;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.album-list {
+  max-width: 100% !important;
+  min-height: 60vh;
+  margin: 0 !important;
+  padding: 0 !important;
+  background-color: #509BF5;
+  background-image: linear-gradient(90deg, #c074b2, #8ab5e8);
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.album-list2 {
+  max-width: 100% !important;
+  min-height: 60vh;
+  margin: 0 !important;
+  padding: 0 !important;
+  /* background-color: #509BF5; */
+  /* background-image: linear-gradient(#c074b2, #8ab5e8); */
+  background-image: linear-gradient(transparent, #000);
+  
 }
